@@ -26,43 +26,6 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ajk-hQ-zzi" id="xRZ-GO-7d5">
                                             <rect key="frame" x="0.0" y="0.0" width="390" height="250"/>
                                             <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pike Market" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jav-4U-hGg">
-                                                    <rect key="frame" x="5" y="215" width="380" height="30"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="49" placeholder="YES" id="rG5-4f-O1d"/>
-                                                        <constraint firstAttribute="height" constant="30" id="u4v-56-fh6"/>
-                                                    </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                    <variation key="default">
-                                                        <mask key="constraints">
-                                                            <exclude reference="rG5-4f-O1d"/>
-                                                        </mask>
-                                                    </variation>
-                                                </label>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Pike Market" translatesAutoresizingMaskIntoConstraints="NO" id="Fox-1j-yR5">
-                                                    <rect key="frame" x="25" y="16" width="340" height="194"/>
-                                                </imageView>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="Fox-1j-yR5" firstAttribute="leading" secondItem="xRZ-GO-7d5" secondAttribute="leadingMargin" constant="5" id="8E8-6d-Wc6"/>
-                                                <constraint firstItem="Jav-4U-hGg" firstAttribute="top" secondItem="Fox-1j-yR5" secondAttribute="bottom" constant="5" placeholder="YES" id="GCx-ZA-pQN"/>
-                                                <constraint firstItem="Jav-4U-hGg" firstAttribute="leading" secondItem="xRZ-GO-7d5" secondAttribute="leading" constant="5" id="ICm-20-hct"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="Fox-1j-yR5" secondAttribute="trailing" constant="5" id="JnG-4k-zvp"/>
-                                                <constraint firstItem="Jav-4U-hGg" firstAttribute="top" secondItem="Fox-1j-yR5" secondAttribute="bottom" constant="5" placeholder="YES" id="M8G-Sc-mDk"/>
-                                                <constraint firstAttribute="bottom" secondItem="Jav-4U-hGg" secondAttribute="bottom" constant="5" id="U1E-YJ-eAa"/>
-                                                <constraint firstItem="Fox-1j-yR5" firstAttribute="top" secondItem="xRZ-GO-7d5" secondAttribute="topMargin" constant="5" id="oP6-c3-Te5"/>
-                                                <constraint firstItem="Jav-4U-hGg" firstAttribute="top" secondItem="Fox-1j-yR5" secondAttribute="bottom" constant="5" placeholder="YES" id="oRn-Cz-6Ms"/>
-                                                <constraint firstAttribute="trailing" secondItem="Jav-4U-hGg" secondAttribute="trailing" constant="5" id="yag-bX-dso"/>
-                                            </constraints>
-                                            <variation key="default">
-                                                <mask key="constraints">
-                                                    <exclude reference="M8G-Sc-mDk"/>
-                                                    <exclude reference="oRn-Cz-6Ms"/>
-                                                </mask>
-                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
@@ -91,7 +54,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Pike Market" width="1500" height="1000"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
